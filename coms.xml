@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<coms>
+	<!--Laisser cette ligne vide-->
+<com/>
+	<!---->
+
+<!--Commentaires affichés-->
+<com nom="Armando" msg="Good Game"/>
+<com nom="Romarichot" msg="Love basket-Ball"/>
+<com nom="Admin" msg="Super Match"/>
+<com nom="Tchezeu" msg="It's work"/></coms>

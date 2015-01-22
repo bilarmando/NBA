@@ -1,0 +1,14 @@
+.footer{
+	width: 1366px;
+	height: 45px;
+	background-color: #282427;
+	display: inline-block;
+}
+.footer .sociaux{
+	margin-right: 14%;
+	width: 1366px;
+	float: right;
+
+}
+
+

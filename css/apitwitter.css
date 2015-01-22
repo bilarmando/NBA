@@ -1,0 +1,65 @@
+.apitwitter{
+	width: 50%;
+	font-size: 14px;
+	text-align: justify;
+	margin-left: 10px;
+	}
+.sondage{
+	width: 40%;
+	font-size: 14px;
+	margin: 0;
+}
+.prefooter{
+	width: 1366px;
+	height: 200px;
+	background-color: #2980b9;
+	color: white;
+
+}
+.prefooter .apitwitter, .prefooter .sondage{
+	display: inline-block;
+	height: 190px;
+}
+.ligne_tweet span{
+	color: #3498db;
+	font-size: 13px;
+	font-weight: bolder;
+}
+.ligne_tweet{
+	font-size : 12px;
+}
+#sondage{
+	float: left;
+	margin: 0px;
+}
+#resultat{
+	float: right;
+}
+
+/*
+*Sondage
+*/
+#sondage input
+{
+	display:block;
+	margin:2px;/* c'est plus aéré avec une marge !*/
+}
+#sondage input:before
+{
+	content:"";/* pour que le bouton soit visible*/
+	display:inline-block;
+	width:1em;
+	height:1em;
+	background-color:#bdc3c7;
+	border:2px solid #27ae60;
+	border-radius:55px;
+}
+
+#sondage input:hover:before /*Bouton hover*/
+{
+	background-color:#c0392b;
+}
+#sondage input:checked:before/*Bouton coché*/
+{
+	background-color:#e74c3c;
+}

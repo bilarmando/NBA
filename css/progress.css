@@ -1,0 +1,30 @@
+#pwidget
+{
+  background-color:lightgray;
+  width:254px;
+  padding:2px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  text-align:left;
+  border:1px solid gray;	
+}
+#progressbar
+{
+  width:250px;
+  padding:1px;
+  background-color:white;
+  border:1px solid black;
+  height:28px;
+}
+#indicator
+{
+  width:0px;
+  background-image:url("green.png");
+  height:28px;
+  margin:0;
+}
+#progressnum
+{
+  text-align:center;
+  width:250px;
+}

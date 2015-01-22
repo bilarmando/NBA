@@ -1,0 +1,107 @@
+p, h2{
+	text-align : center;
+}
+.section1{
+	margin: 0px 14%;
+	height: 400px;
+}
+/*Sec1 ==> Youtube*/
+.sec1{
+	width: 194px;
+	height: 200px;
+	text-align: center;
+	margin-top: 10%;
+	margin-right: 10%;
+	opacity: 0.5;
+	display: inline-block;
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+.sec1:hover{
+	opacity: 1;
+	color: #00bac6;
+	/*Effet de zoom in*/
+	-webkit-transform:scale(1.3);
+	transform:scale(1.3);
+	/*Fin Zoom in*/
+}
+.img1{
+	background-image: url("../img/sec1.png");
+	height: 112px;
+	width: 112px;
+	margin-left: 21%;
+}
+.img1:hover{
+	background-image: url("../img/sec1.png");
+	background-position: bottom;
+	
+}
+
+/*Sec2 ==> Blog*/
+.sec2{
+	text-align: center;
+	width: 194px;
+	height: 200px;
+	margin-top: 10%;
+	margin-left: 8%;
+	margin-right: 8%;
+	opacity: 0.5;
+	display: inline-block;
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+.sec2:hover{
+	opacity: 1;
+	color: #00bac6;
+	/*Effet de zoom in*/
+	-webkit-transform:scale(1.3);
+	transform:scale(1.3);
+	/*Fin Zoom in*/
+}
+.img2{
+	background-image: url("../img/sec2.png");
+	height: 112px;
+	width: 112px;
+	margin-left: 21%;
+}
+.img2:hover{
+	background-image: url("../img/sec2.png");
+	background-position: bottom;
+	
+}
+
+
+/*Sec3 ==> galerie*/
+.sec3{
+	width: 194px;
+	height: 200px;
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 10%;
+	opacity: 0.5;
+	display: inline-block;
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+.sec3:hover{
+	opacity: 1;
+	color: #00bac6;
+	/*Effet de zoom in*/
+	-webkit-transform:scale(1.3);
+	transform:scale(1.3);
+	/*Fin Zoom in*/
+}
+.img3{
+	background-image: url("../img/sec3.png");
+	height: 112px;
+	width: 112px;
+	margin-left: 21%;
+}
+.img3:hover{
+	background-image: url("../img/sec3.png");
+	background-position: bottom;
+}
+/*Hover de tous les liens de la section 1*/
+.section1 a:hover{
+	color: #00bac6;
+}

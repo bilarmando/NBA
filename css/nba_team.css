@@ -1,0 +1,37 @@
+.box1, .box2{
+	width: 75%;
+	 background-color: #34495e;
+	 margin-left: 14%;
+}
+.conf1,.conf2{
+	text-align: center;
+	font-size: 20px;
+	height: 30px;
+	font-style: bold;
+	border: solid;
+	border-color: #2c3e51;
+	background-color: #2c3e50;
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+.conf1:hover,.conf2:hover{
+	text-shadow: 0 1px 0 #666,
+	1px 3px 0 #444,
+	2px 4px 0 #333,
+	3px 5px 0 #222,
+	4px 6px 1px #111,
+	0 0 5px rgba(0,0,0,.6),
+	0 1px 3px rgba(0,0,0,.5),
+	1px 3px 5px rgba(0,0,0,.4),
+	3px 5px 10px rgba(0,0,0,.3),
+	5px 10px 10px rgba(0,0,0,.2),
+	10px 20px 20px rgba(0,0,0,.1);
+	color: #3498db;
+	background-color: #2980b9;
+	margin: 0 0;
+	}
+.conf1:hover{
+	color: #e74c3c;
+	background-color: #c0392b;
+}
+
